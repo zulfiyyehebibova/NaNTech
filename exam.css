@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.ust{
+    width: 20%;
+    height: 270px;
+    background-color: aliceblue;
+    margin: 100px auto;
+    padding: 10px 50px;
+    border-radius: 0.6rem;
+    text-align: center;
+    border: 4px solid black;
+    position: relative;
+}
+.ust input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 8px;
+    margin-top: 18px;
+}
+.enter{
+    width: 100%;
+    height: 30px;
+    border-radius: 0.3rem;
+    padding: 4px;
+    margin-top: 12px;
+    font-size: 15px;
+   background-color: green;
+   color: white;
+}
+.fa-eye{
+    position: absolute;
+    bottom: 29%;
+    right: 20%;
+}
+

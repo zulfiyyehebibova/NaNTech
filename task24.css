@@ -1,0 +1,24 @@
+
+
+
+.sari{
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.qirmizi{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+}
+button{
+    font-size: 10px;
+    margin-left: 10px;
+}
+    

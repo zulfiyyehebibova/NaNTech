@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/3d/a3/7d/3da37dc6421f978a50e165466f221d72.jpg);
+}
+header{
+    width: 100%;
+    height: 700px;
+    padding: 0px 0px;   
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 67, 55, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0px 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: rgba(255, 157, 38, 0.8);
+}
+.search{
+    width: 200px;
+    height: 30px;
+    border-radius: 0.8rem;
+    padding-left: 3px;
+}
+.dessert{
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    margin-top: 60px;
+}
+.dessert div{
+    
+    width: 34%;
+    padding-bottom: 20px;
+    background-color: bisque;
+    margin-top: 20px;
+    border-radius: 0.7rem;
+    box-shadow: 0px 0px 10px #afafaf;
+    transition: 0.5s;
+    text-align: center;
+}
+.dessert div:hover{
+    box-shadow: 0px 0px 0px #afafaf;
+}
+.dessert div a{
+    padding: 5px 8px;
+    margin-left: 50px;
+    border-radius: 0.7rem;
+    border: 1px solid black;
+    background-color: rgba(255, 228, 196, 0.8);
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+.dessert div a:hover{
+    background-color: cornsilk;
+}
+.dessert div h1{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dessert div b{
+    font-size: 18px;
+}
+.dessert div img{
+    
+    width: 60%;
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+.dess1{
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-name: animasiya1;
+}
+@keyframes animasiya1{
+    from{margin-left: 0px;}
+    to{margin-left: 200px;}
+}
+.dess2{
+   animation-name: animasiya2;
+   animation-fill-mode: forwards;
+   animation-duration: 2s;
+}
+@keyframes animasiya2{
+    from{margin-right: 0px;}
+    to{margin-right: 200px;}
+}
+
+.sifirla{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(27, 88, 73, 0.692);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 125px;
+}
+.ilk img{
+    width: 60%;
+}
+.son i{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    transition: 1s;
+}
+.son i:hover{
+   transform: rotateY(180deg);
+}

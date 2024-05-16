@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(34, 88, 143, 0.65), rgba(64, 80, 163, 0.65)),url(https://themewagon.github.io/fruitkha/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 700px;
+    padding: 0px 30px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sekil img{
+    width: 50%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar ul li{
+    padding-left: 40px;
+    list-style-type: none;
+
+}
+.navbar a{
+   color: white;
+   text-decoration: none;
+   transition: 0.5s;
+   font-size: 18px;
+}
+.m{
+    color: #F28123 !important;
+}
+.navbar a:hover{
+    color: #F28123;
+}
+.a2{
+    padding-right: 40px;
+    margin-right: 80px;
+    color: gray;
+}
+.div1{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+}
+.div1 p{
+    color: #F28123;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.div1 h1{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.ilk{
+    color: white;
+    background-color: #F28123;
+    padding: 15px 15px;
+    border-radius: 2rem;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.ilk:hover{
+    color: #F28123;
+    background-color: black;
+}
+.son{
+    color: white;
+    border: 2px solid #F28123;
+    padding: 15px 15px;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.son:hover{
+    background-color: #F28123;
+}
+.nan{
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nan1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nan1 img{
+    width: 35%;
+}
+
+.n{
+    margin-left: 20px;
+}
+.n h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.n p{
+    font-size: 15px;
+    color: silver;
+}
+.qutu{
+    width: 100%;
+    text-align: center;
+    padding: 70px 20px;
+    background-color: white;
+}
+.qutu span{
+    color: #F28123;
+}
+.qutu h1{
+    font-size: 40px;
+}
+
+hr{
+    width: 4%;
+    height: 4px;
+    margin: auto;
+    background-color: #F28123;
+    color: #F28123;
+    margin-top: 10px;
+}
+.qutu p{
+    color: #555;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.boyuk{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 60px;
+
+}
+.b1{
+    width: 28%;
+    height: 480px;
+    transition: 0.1s;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 10px #afafaf;
+}
+.b1:hover{
+    box-shadow: 0px 0px 0px;
+}
+.b1 img{
+    width: 80%;
+}
+.b1 h1{
+    font-size: 22px;
+    
+}
+.b1 p{
+    margin-bottom: 10px;
+}
+.b1 b{
+    font-size: 30px;
+}
+.b1 a{
+    display: block;
+    padding: 10px 20px;
+    background-color: #F28123;
+    border-radius: 2rem;
+    margin: 0px 100px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+.b1 a i{
+    margin-right: 10px;
+}
+.b1 a:hover{
+    background-color: black;
+    color: #F28123;
+}
+.items{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 150px;
+    position: relative;
+   
+}
+.item1{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.item1 img{
+    width: 120%;
+}
+.item2{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #F28123;
+    text-align: center;
+    padding-top: 25px;
+    position: absolute;
+    left: 18%;
+    top: 15%;
+    outline: 1px solid orange;
+    outline-offset: 10px;
+    
+}
+.item3{
+    width: 40%;
+    height: 300px;
+}
+.item3 h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.item3 span{
+    color: #F28123;
+}
+.bir{
+    font-size: 18px !important;
+    margin-bottom: 20px;
+}
+.item3 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.kicik{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.balaca{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #F28123;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+   
+}
+
+.balaca h1{
+    font-size: 30px;
+    color: #F28123;
+
+}
+.item3 a{
+    padding: 10px 20px;
+    background-color: #F28123;
+    border-radius: 2rem;
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.item3 a:hover{
+    color: #F28123;
+    background-color: black;
+}
+.diva a{
+    height: 200px;
+    width: 70px;
+    margin-right: 20px !important;
+}
+.melumat{
+    width: 100%;
+    background-color: white;
+    padding: 150px 100px;
+}
+.air{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.bir{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.melumat h1{
+    margin-top: 15px;
+}
+.melumat p{
+    font-size: 18px;
+    color: #555;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.iki{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
+}
+.meyve{
+    width: 40%;
+    height: 300px;
+}
+.meyve img{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.meyve a{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transition: 0.5s;
+}
+.meyve a:hover{
+    color: #F28123;
+    background-color: #555;
+}
+.meyve a i{
+    font-size: 70px;
+    color: #F28123;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.fruit{
+    width: 40%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.fruit h1{
+    color: black;
+    font-size: 50px;
+}
+.fruit span{
+    color: #F28123;
+}
+.fruit p{
+    color: black !important;
+}
+.new{
+    opacity: 0.6;
+}
+.fruit a{
+    color: white;
+    background-color: #F28123;
+    padding: 15px 25px;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.fruit a:hover{
+    color: #F28123;
+    background-color: black;
+}
+.ciyelekler{
+    width: 100%;
+    position: relative;
+}
+.yazi{
+    position: absolute;
+    left: 15%;
+    bottom: 25%;
+}
+.yazi h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.yazi span{
+    color: #F28123;
+}
+.yazi p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* .gul{
+    font-size: 60px;
+} */
+.yazi a{
+    color: white;
+    background-color: #F28123;
+    padding: 12px 28px;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.yazi a:hover{
+    color: #F28123;
+    background-color: black;
+}
+.product{
+    width: 100%;
+    height: 800px;
+    background-color: #f5f5f5;
+    padding-top: 100px;
+}
+.cumle{
+    text-align: center;
+}
+.cumle h1{
+    font-size: 40px;
+}
+.cumle span{
+    color: #F28123;
+}
+.cumle p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #afafaf;
+}
+.qisa{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 180px;
+}
+.c1{
+    width: 28%;
+    height: 450px;
+    transition: 0.1s;
+    box-shadow: 0px 0px 10px #afafaf;
+}
+.c1 img{
+    width: 100%;
+}
+.c1:hover{
+    box-shadow: 0px 0px 0px;
+}
+

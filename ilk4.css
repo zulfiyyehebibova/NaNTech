@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/3d/a3/7d/3da37dc6421f978a50e165466f221d72.jpg);
+}
+header{
+    width: 100%;
+    height: 700px;
+    padding: 0px 0px;   
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 67, 55, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0px 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: rgba(255, 157, 38, 0.8);
+}
+.search{
+    width: 200px;
+    height: 30px;
+    border-radius: 0.8rem;
+    padding-left: 3px;
+
+}
+.icki{
+    
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+.ic{
+    width: 34%;
+    padding-bottom: 20px;
+    background-color: bisque;
+    border-radius: 0.7rem;
+    box-shadow: 0px 0px 10px #afafaf;
+    animation-name: animasiya;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+.Ic-Main{
+    width: 60%;
+    margin: auto;
+}
+@keyframes animasiya{
+    from{margin-top: 0px;}
+    to{margin-top: 60px;}
+}
+.ic h1{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.ic b{
+    font-size: 18px;
+}
+.ic:hover{
+    box-shadow: 0px 0px 0px #afafaf;
+}
+.ic img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(27, 88, 73, 0.692);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 125px;
+}
+.ilk img{
+    width: 60%;
+}
+.son i{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    transition: 1s;
+}
+.son i:hover{
+   transform: rotateY(180deg);
+}

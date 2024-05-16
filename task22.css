@@ -1,0 +1,43 @@
+.div1{
+    width: 240px;
+    height: 100px;
+    background-color: crimson;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ilk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 img{
+    width: 70%;
+    height: 100px;
+}
+.div2{
+    width: 80px;
+    height: 80px;
+    /* background-color: deepskyblue; */
+}
+.div2 img{
+    width: 100%;
+}
+.div3{
+    width: 80px;
+    height: 80px;
+    /* background-color: blue; */
+}
+.div3 img{
+    width: 100%;
+}
+.div4{
+    width: 80px;
+    height: 80px;
+    /* background-color: bisque; */
+}
+.div4 img{
+    width: 100%;
+}

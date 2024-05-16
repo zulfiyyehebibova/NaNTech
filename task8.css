@@ -1,0 +1,275 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    /* height: 700px; */
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),  url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+}
+.TASK8{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TASK8 a{
+    color: silver;
+    text-decoration: none;
+}
+.TASK8 a:hover{
+   color: brown;
+}
+.TASK8 ul li{
+    color: silver;
+    list-style-type: none;
+    padding-left: 40px;
+}
+.TASK8 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.task8{
+    width: 30%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.t8{
+    text-align: center;
+}
+.t8 h1{
+    color: white;
+    font-size: 30px;
+}
+.t8 hr{
+    border-color: brown;
+    background-color: brown;
+    height: 5px;
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+}
+.t8 p{
+   color: silver;
+   font-size: 18px;
+   margin: auto;
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+.t8 a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 1.9rem;
+    transition: 1s;
+}
+.t8 a:hover{
+    background-color: orange;
+}
+.DIV1{
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    text-align: center;
+}
+.d1 h1{
+    font-size: 40px;
+    color: white;
+}
+.d1 hr{
+    background-color: white;
+    border-color: black;
+    width: 4%;
+    height: 4px;
+    margin: auto;
+    margin-top: 15px;
+}
+.d1 p{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.d1 a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 1.9rem;
+}
+.d1 a:hover{
+    background-color: silver;
+}
+.divler{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10px;
+}
+.div1{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.div2{
+    width: 25%;
+    text-align: center;
+}
+.div1 hr{
+    background-color: red;
+    border-color: black;
+    width: 4%;
+    height: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+.div2 i{
+    font-size: 35px;
+    color: brown;
+}
+.div2 h1{
+    margin-top: 12px;
+}
+.div2 p{
+    font-size: 18px;
+    margin: auto;
+    margin-top: 8px;
+    color: grey;
+}
+.DD{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dd{
+    width: 30%;
+    position: relative;
+}
+.dd img{
+    width: 100%;
+    vertical-align: middle;
+}
+.nan8{
+    width: 100%;
+    height: 240px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    padding-top: 90px;
+}
+.nan8:hover{
+    opacity: 0.7;
+}
+.n1{
+    color: gray;
+    font-size: 15px;
+}
+.n2{
+    color: white;
+    font-size: 25px;
+}
+.DIVLER{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divv{
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+}
+.divv h1{
+    color: white;
+    margin-bottom: 40px;
+}
+.divv a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 1.9rem;
+}
+.divv a:hover{
+    background-color: silver;
+}
+.ZZ{
+    width: 100%;
+    height: 650px;
+    padding-top: 60px;
+}
+.zz{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.zz h1{
+    margin-bottom: 25px;
+}
+.zz hr{
+    background-color: red;
+    border-color: black;
+    margin: auto;
+    width: 8%;
+    height: 4px;
+    margin-bottom: 25px;
+}
+.zz p{
+font-size: 20px;
+}
+form{
+margin-top: 80px;
+}
+.z1{
+    width: 40%;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0.4rem;
+    color: black;
+}
+form textarea{
+    padding: 10px;
+    resize: vertical;
+}
+form input{
+    font-size: 17px;
+}
+form button{
+    width: 40%;
+    height: 60px;
+    margin-left: 440px;
+    border-radius: 1.8rem;
+    background-color: orangered;
+    color: white;
+}
+
+

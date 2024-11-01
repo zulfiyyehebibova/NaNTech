@@ -45,55 +45,72 @@ header{
     height: 30px;
     border-radius: 0.8rem;
     padding-left: 3px;
-
 }
-.icki{
-    
+.dessert{
     width: 100%;
     background-color: rgba(255, 228, 196, 0.8);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 0px;
     margin-top: 60px;
 }
-.ic{
-    width: 34%;
+.dessert div{
+    
+    width: 28%;
     padding-bottom: 20px;
     background-color: bisque;
+    margin-top: 20px;
     border-radius: 0.7rem;
     box-shadow: 0px 0px 10px #afafaf;
-    animation-name: animasiya;
-    animation-duration: 1s; 
-    animation-fill-mode: forwards;
+    transition: 0.5s;
     text-align: center;
 }
-.Ic-Main{
-    width: 60%;
-    margin: auto;
-}
-@keyframes animasiya{
-    from{margin-top: 0px;}
-    to{margin-top: 60px;}
-}
-.ic h1{
-    font-size: 22px;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.ic b{
-    font-size: 18px;
-}
-.ic:hover{
+.dessert div:hover{
     box-shadow: 0px 0px 0px #afafaf;
 }
-.ic img{
-    width: 50%;
+.dessert div a{
+    padding: 5px 8px;
+    margin-left: 50px;
+    border-radius: 0.7rem;
+    border: 1px solid black;
+    background-color: rgba(255, 228, 196, 0.8);
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+.dessert div a:hover{
+    background-color: cornsilk;
+}
+.dessert div h1{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dessert div b{
+    font-size: 18px;
+}
+.dessert div img{
+    
+    width: 30%;
     margin: auto;
     display: block;
-    margin-top: 20px;
     border-radius: 0.5rem;
+    margin-top: 20px;
+}
+.dess1{
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-name: animasiya1;
+}
+@keyframes animasiya1{
+    from{margin-top: 0px;}
+    to{margin-top: 40px;}
+}
+
+.sifirla{
+    margin-top: 0px!important;
 }
 footer{
     width: 100%;

@@ -3,106 +3,106 @@
 
 var baza = [
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/e80b5f34-221b-11ee-afdc-e66e1a8e14df_7.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/side-view-fresh-salad-with-feta-cheese-tomatoes-cucumbers-dried-herbs-with-olive-oil-white-bowl_140725-11935.jpg?t=st=1716297182~exp=1716300782~hmac=34ec3318fcc72e8d4241788f9a4bf66dfdca2e541331fc706d34c7d3390023bb&w=360",
         ad:"Feta Salatı",
         qiymet:"13m",
         category:"salat"
     },
     
     {
-      sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/ea216480-221b-11ee-93d8-9add3f2237db_8.jpg?w=1600",
+      sekil:"https://img.freepik.com/free-photo/side-view-vegetable-salad-with-fruits-strawberries-grapes-plate_141793-6121.jpg?t=st=1716297307~exp=1716300907~hmac=9227d18b6b27d4ebfd677f6821e96ca2491f163db1a8b1e545c086e42404a1c2&w=360",
       ad:"Asiya Salatı",
       qiymet:"11m",
       category:"salat"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/e3972aaa-221b-11ee-a6e3-fe8019977a10_4.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/side-view-shrimp-caesar-salad-with-cherry-tomatoes-bowl_140725-12044.jpg?t=st=1716297516~exp=1716301116~hmac=ebaa3e4576234cd46fc1c6ad61aa99d648f7268ca002652806e3d8c4e70fd60d&w=360",
         ad:"Sezar Salatı",
         qiymet:"12m",
         category:"salat"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/efd32322-2226-11ee-aa88-8ad54b0e8e97_5.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/pizza-with-chicken-cheese-tomato-sauce_140725-3946.jpg?t=st=1716297591~exp=1716301191~hmac=5ff55b2a1fb8b118d2b1071de7f836f03625e658f2e39923c3ae7fdcea93ee88&w=360",
         ad:"Toyuqlu Pizza",
         qiymet:"10m",
         category:"pizza"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/f4a40cea-2226-11ee-ab30-de5085d6c08c_7.jpg?w=1600",
-        ad:"Veqeterian Pizza",
+        sekil:"https://img.freepik.com/free-photo/top-view-mix-pizza-with-chicken-sausages-mushrooms-olives-board_140725-11548.jpg?t=st=1716297649~exp=1716301249~hmac=c6f38e66db350b113cb0d88c21b8bd07602827868a6fa730adf7692cfa7abc26&w=360",
+        ad:"Göbələkli Pizza",
         qiymet:"10m",
         category:"pizza"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/06a68486-2227-11ee-ba2f-764d262c0824_17.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/slice-pizza-with-chicken-tomato-wooden-board_140725-3045.jpg?t=st=1716297635~exp=1716301235~hmac=335a3693c9946e7f68bba58d2f824110b174c2c0f6c231203ee8d23c11c4d769&w=360",
         ad:"Pizza Marqarita",
         qiymet:"11m",
         category:"pizza"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/64b0f91b9584d8cf9d960423/07bdaaf0-221f-11ee-8015-9674bbbcdc73___0044.jpg?w=600",
+        sekil:"https://img.freepik.com/free-photo/side-view-lamb-kebab-with-baked-potato-vegetables-wooden-board_140725-10184.jpg?t=st=1716208885~exp=1716212485~hmac=8dbaa4c83d6e41da737513923e99c160a651d981f43363c8df33d53b314ddbb6&w=360",
         ad:"Urfa Kababı",
         qiymet:"13m",
         category:"kabab"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/64b0f91b9584d8cf9d960423/208f8a58-221f-11ee-bd6b-22c34ab9ef38___0045.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/front-view-mix-kebab-meat-with-onion-pita-bread-bread_140725-11398.jpg?t=st=1716208950~exp=1716212550~hmac=e04228a78ebda5dc514c8e8f28673f1100b98c9df0c6bbe35713fe03b9e83799&w=360",
         ad:"Quzu Kababı",
         qiymet:"14m",
         category:"kabab"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/64b0f91b9584d8cf9d960423/9677110a-221f-11ee-9b7c-e276fbf48d16___0048.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/grilled-chicken-cutlets-with-roasted-vegetables_140725-1146.jpg?t=st=1716208989~exp=1716212589~hmac=3b4f69089b66c0d3971eabd25aa6866d3474d5cb7fc9ca94ac9750fc4c0f7fc5&w=360",
         ad:"Toyuq Kababı",
         qiymet:"12m",
         category:"kabab"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/0be83c0a-2227-11ee-baea-2ad9a65f725a_23.jpg?w=1600",
-        ad:"Quşbaşı Pide",
+        sekil:"https://img.freepik.com/premium-photo/pizza-with-slice-pepperoni-it_861622-178.jpg?w=360",
+        ad:"Sucuklu Pide",
         qiymet:"11m",
         category:"pide"
 
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/19c80436-2227-11ee-9cd3-b698b3b36c78_32.jpg?w=600",
-        ad:"Pide Quzu Qovurması",
+        sekil:"https://img.freepik.com/free-photo/turkish-pizza-pide-with-pepperoni-tomato-herbs_114579-3772.jpg?t=st=1716209249~exp=1716212849~hmac=c8f00170233ef323b76fe4240b6a5e3c6b363e85011681724a0d92dc8db44020&w=360",
+        ad:"Sosisli pide",
         qiymet:"15m",
         category:"pide"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/0e98b862-2227-11ee-bc6a-daed138ed6ef_25.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/top-view-traditional-turkish-cuisine-turkish-pizza-pita-pide-with-different-stuffing-meat-cheese-slices-veal-vegetables-wooden-table_140725-12618.jpg?t=st=1716209198~exp=1716212798~hmac=a12c21afd180fc26d8b7ed58148f228e426b00344668cbf5a2d411b7b6bf8ca7&w=360",
         ad:"Qiyməli Pide",
         qiymet:"11m",
         category:"pide"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/2458a8f8-221b-11ee-a362-4e865fd185d1_2.jpg?w=1600",
-        ad:"Fıstıqlı Sarma",
+        sekil:"https://img.freepik.com/free-photo/chocolate-cake-with-nuts-ice-cream-top-strawberries-1_140725-8388.jpg?t=st=1716209974~exp=1716213574~hmac=0ef33f3630abc3feaeacd462bd1261b278c01d319cd14ba919d75bee4ea5e8df&w=360",
+        ad:"Chocolate cake",
         qiymet:"8m"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/43bcbe46-221b-11ee-9d0c-1acd1b26ba18_9.jpg?w=1600",
-        ad:"Tiramisu",
+        sekil:"https://img.freepik.com/free-photo/berry-cheesecake-covered-with-berry-gelatine_140725-5729.jpg?t=st=1716210182~exp=1716213782~hmac=f46acee475511571c44f127f554f2f0b733f4b812c2b6d8ef60168f97a7ed6ec&w=360",
+        ad:"Berry cheesecake",
         qiymet:"7m"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/26f05af2-221b-11ee-8cc5-22c34ab9ef38_4.jpg?w=1600",
-        ad:"Qozlu Paxlava",
+        sekil:"https://img.freepik.com/free-photo/side-view-two-strawberry-cheesecake-with-cup-tea-cinnamon_140725-14015.jpg?t=st=1716209738~exp=1716213338~hmac=a672dbe4f49c46d36ee0bf3c284134e8ae2a525bd0e1ce6ed97d6433c0a49199&w=360",
+        ad:"Strawberry cheesecake",
         qiymet:"7m"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/292b9c50-221b-11ee-8af4-0e47c1d17238_6.jpg?w=600",
-        ad:"Südlü Soyuq Paxlava",
+        sekil:"https://img.freepik.com/free-photo/napoleon-cake-with-black-tea-table_140725-5346.jpg?t=st=1716209906~exp=1716213506~hmac=148b45107872d14d6e418993ebc7d5a9efd618d4217e79cc077f8b5e7e60e6fe&w=360",
+        ad:"Napaleon cake",
         qiymet:"8m"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/4c55036a-221b-11ee-a15b-e276fbf48d16_15.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/chocolate-cheesecake-with-tea-side-view_140725-9107.jpg?t=st=1716209414~exp=1716213014~hmac=516cb1069fd643f29b19dcd15748f344683496c4d39862b1b45aa0f944ca4fb0&w=360",
         ad:"San Sebastian",
         qiymet:"7m"
     },
     {
-        sekil:"https://imageproxy.wolt.com/menu/menu-images/shared/53adb558-221b-11ee-9599-8a53c9ff3b32_19.jpg?w=1600",
+        sekil:"https://img.freepik.com/free-photo/top-view-choco-slice-tasty-yummy-inside-white-plate-brown-desk_140725-14545.jpg?t=st=1716209358~exp=1716212958~hmac=3541ab12cae97ddee97194e495591aac197340aee2016bc383e84a345fba015c&w=360",
         ad:"Islak Kek",
         qiymet:"7m"
     },

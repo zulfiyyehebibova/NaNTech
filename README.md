@@ -24,4 +24,4 @@ Bütün layihələrə canlı olaraq buradan baxa bilərsiniz:
 👉 [na-n-tech.vercel.app](https://na-n-tech.vercel.app)
 
 ## 📫 Əlaqə
-LinkedIn: [[Zülfiyyə Həbibova]()](https://www.linkedin.com/in/zulfiyyehebibova/)
+LinkedIn: https://www.linkedin.com/in/zulfiyye-hebibova/

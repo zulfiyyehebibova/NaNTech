@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="catalog">
+
+  <div class="card" onclick="openModal(0)">
+    <img src="https://picsum.photos/id/1011/300/200">
+    <h3>Mountain</h3>
+  </div>
+
+  <div class="card" onclick="openModal(1)">
+    <img src="https://picsum.photos/id/1015/300/200">
+    <h3>Sea</h3>
+  </div>
+
+  <div class="card" onclick="openModal(2)">
+    <img src="https://picsum.photos/id/1025/300/200">
+    <h3>Animal</h3>
+  </div>
+
+</div>
+
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img id="mainImg" src="">
+
+    <div class="thumbs">
+      <img onclick="changeImg(this)" src="">
+      <img onclick="changeImg(this)" src="">
+      <img onclick="changeImg(this)" src="">
+    </div>
+
+    <h2 id="title"></h2>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

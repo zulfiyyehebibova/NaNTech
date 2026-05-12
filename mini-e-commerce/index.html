@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="nav-content">
+
+            <input id="search" class="search-input" type="text" placeholder="Məhsul axtar...">
+
+            <div class="filter-buttons">
+                <button class="btn active" data-cat="all">Hamısı</button>
+                <button class="btn" data-cat="Airpods">Airpods</button>
+                <button class="btn" data-cat="Apple Watch">Watch</button>
+                <button class="btn" data-cat="Macbook Pro">Macbook</button>
+                <button class="btn" data-cat="iPhone 11 pro">iPhone</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="main-container">
+        <i class="fa-solid fa-cart-shopping cart-icon" id="cartBtn"></i>
+
+        <div class="products-container"></div>
+    </div>
+
+    <!-- CART MODAL -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h3>Səbət</h3>
+                <i class="fa-solid fa-x close-cart"></i>
+            </div>
+
+            <div class="cart-items"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

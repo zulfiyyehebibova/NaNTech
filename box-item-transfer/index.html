@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Element Köçürmə</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="box" id="box1">
+        <h3>Sol Qutu</h3>
+        <div class="item" onclick="selectItem(this)">HTML</div>
+        <div class="item" onclick="selectItem(this)">CSS</div>
+        <div class="item" onclick="selectItem(this)">JavaScript</div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="moveRight()">→</button>
+        <button onclick="moveLeft()">←</button>
+    </div>
+
+    <div class="box" id="box2">
+        <h3>Sağ Qutu</h3>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

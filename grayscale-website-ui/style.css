@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+/* HEADER */
+
+header{
+    width:100%;
+    min-height:100vh;
+    background-image:url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+/* NAVBAR */
+
+.navbar{
+    width:100%;
+    padding:25px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar ul{
+    display:flex;
+    gap:40px;
+}
+
+.navbar ul li{
+    list-style:none;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#64a19d;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:white;
+}
+
+/* HERO */
+
+.hero{
+    width:100%;
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-content{
+    width:60%;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:80px;
+    letter-spacing:12px;
+    color:white;
+}
+
+.hero-content p{
+    margin:20px 0;
+    font-size:22px;
+    color:#fff;
+    line-height:35px;
+}
+
+.hero-content button{
+    padding:18px 35px;
+    border:none;
+    border-radius:5px;
+    background:#64a19d;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero-content button:hover{
+    background:#4d7f7c;
+}
+
+/* ABOUT */
+
+.about{
+    width:100%;
+    padding:120px 20px;
+    background:black;
+    text-align:center;
+    color:white;
+    background-image:url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/ipad.png);
+    background-repeat:no-repeat;
+    background-position:bottom center;
+}
+
+.about h1{
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.about p{
+    width:70%;
+    margin:auto;
+    line-height:35px;
+    color:silver;
+}
+
+.about a{
+    color:#64a19d;
+}
+
+/* PROJECT */
+
+.project{
+    width:85%;
+    margin:100px auto;
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.project-image{
+    width:70%;
+}
+
+.project-image img{
+    width:100%;
+}
+
+.project-text{
+    width:30%;
+    padding-left:30px;
+    border-left:5px solid #64a19d;
+}
+
+.project-text p{
+    margin-top:15px;
+    color:gray;
+    line-height:28px;
+}
+
+/* CARDS */
+
+.cards{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.cards div{
+    width:50%;
+    min-height:350px;
+}
+
+.card-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.card-text{
+    background:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    text-align:center;
+}
+
+.card-text p{
+    margin-top:15px;
+    color:silver;
+    line-height:28px;
+}
+
+/* SUBSCRIBE */
+
+.subscribe{
+    width:100%;
+    padding:140px 20px;
+    text-align:center;
+    background-image:url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.subscribe h1{
+    color:white;
+    margin-bottom:30px;
+}
+
+.subscribe-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.subscribe input{
+    width:400px;
+    height:60px;
+    padding-left:20px;
+    border:none;
+    border-radius:5px;
+}
+
+.subscribe button{
+    padding:0 30px;
+    border:none;
+    border-radius:5px;
+    background:#64a19d;
+    color:white;
+    cursor:pointer;
+}
+
+/* CONTACT */
+
+.contact{
+    width:100%;
+    padding:100px 40px;
+    background:black;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.contact-card{
+    width:320px;
+    background:white;
+    padding:40px;
+    border-radius:8px;
+    text-align:center;
+}
+
+.contact-card hr{
+    width:60px;
+    height:4px;
+    background:#64a19d;
+    border:none;
+    margin:15px auto;
+}
+
+.contact-card p{
+    color:gray;
+}
+
+.contact-card a{
+    color:#64a19d;
+    text-decoration:none;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    .hero-content{
+        width:90%;
+    }
+
+    .hero-content h1{
+        font-size:45px;
+    }
+
+    .project{
+        flex-direction:column;
+    }
+
+    .project-image,
+    .project-text{
+        width:100%;
+    }
+
+    .cards div{
+        width:100%;
+    }
+
+    .about p{
+        width:90%;
+    }
+
+}

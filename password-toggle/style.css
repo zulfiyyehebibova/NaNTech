@@ -1,0 +1,53 @@
+/* task27.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password-box{
+    width: 350px;
+    position: relative;
+}
+
+.password-box input{
+    width: 100%;
+    height: 45px;
+    padding: 0 45px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.password-box input:focus{
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+}
+
+.password-box i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+input::-ms-reveal{
+    display: none;
+}
+#hide{
+    display: none;
+}

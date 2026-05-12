@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <select id="filterSelect">
+        <option value="all">Hamısı</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>N</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+            <tr>
+                <td>1</td>
+                <td>Zülfiyyə</td>
+                <td>Həbibova</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>İsmet</td>
+                <td>Həbibov</td>
+                <td>18</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Xəlil</td>
+                <td>Süleymanov</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
